@@ -13,4 +13,6 @@ contract Mappings{
     mapping(Student => uint) public testVar;
 
     
+
+
 }
