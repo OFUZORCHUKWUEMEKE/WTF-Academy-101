@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: SEE LICENSE IN LICENSE
 pragma solidity 0.8.27;
 
-Contract ControlFlow{
+Contract ControlFlow {
     uint public sum = 0;
     function IfelseTest(uint256 _number) public pure returns(bool){
         if(_number==0){
