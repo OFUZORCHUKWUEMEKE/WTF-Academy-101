@@ -79,11 +79,11 @@ contract Scope {
     // Time
     // You can stipulate in the contract that an operation must be completed within a week, or that an event will occur in a month. This will make the execution of the contract more accurate and will not affect the result of the contract due to technical errors. Therefore, time units Solidityare an important concept in the contract, which helps to improve the readability and maintainability of the contract.
 
-    seconds: 1
-    minutes: 60 seconds = 60
-    hours: 60 minutes = 3600
-    days: 24 hours = 86400
-    weeks: 7 days = 604800
+    // seconds: 1
+    // minutes: 60 seconds = 60
+    // hours: 60 minutes = 3600
+    // days: 24 hours = 86400
+    // weeks: 7 days = 604800
 
     function secondsUnit() external pure returns(uint) {
     assert(1 seconds == 1);

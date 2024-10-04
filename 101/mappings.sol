@@ -5,14 +5,13 @@ contract Mappings{
     mapping(uint=>address) public idToAddress;
     mapping(address => address) public swapPair;
 
-    strcut Student{
+    struct Student {
         uint256 id;
         uint256 score;
     }
 
+    Student public student;
+
     mapping(Student => uint) public testVar;
-
-    
-
 
 }
