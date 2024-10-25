@@ -8,7 +8,7 @@ contract Payable {
         owner = payable(msg.sender);
     }
 
-    // Function to deposit Ether into this contract.
+    // Function to deposit Ether injto this contract.
     // Call this function along with some Ether.
     // The balance of this contract will be automatically updated.
     function deposit() public payable {}
